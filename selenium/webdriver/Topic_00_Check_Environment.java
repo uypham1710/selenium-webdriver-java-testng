@@ -19,7 +19,7 @@ public class Topic_00_Check_Environment {
 
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-
+        // TEST COMMIT
     }
 
     @Test
